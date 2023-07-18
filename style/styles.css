@@ -1,0 +1,168 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title{
+    color: #139139;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px 0px;
+    text-align: center;
+  }
+
+  /* Navbar styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 75px;
+    color: #0a0a0a;
+    background-color: #f1f1f1;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .nav-links a {
+    color: rgb(58, 57, 57);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Hero section styles */
+  .bg {
+    background-image: url('..//background-layer.png');
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .bg-content {
+    max-width: 600px;
+  }
+  
+  /* About section styles */
+  #about{
+    height: 750px;
+  }
+
+  .about-container {
+    text-align: center;
+    padding: 0px 50px 50px 50px;
+    font-size: 20px;
+  }
+  
+  .card-align {
+    display: flex;
+  }
+  
+  .card {
+    height: 350px;
+    width: 450px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px 20px;
+    flex-basis: 48%; /* Adjust the width as needed */
+  }
+
+  .card img{
+    height: 225px;
+    width: 350px;
+  }
+  
+  /* Awards section styles */
+  #awards{
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    height: 750px;
+  }
+  .awards-container {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+  }
+  
+  .award-item {
+    margin: 20px 5px;
+  }
+
+  .award-item img{
+    height: 225px;
+    width: 350px;
+  }
+
+  .award-item h3{
+    border-bottom: #0a0a0a 1px solid;
+  }
+  
+  /* Contact section styles */
+  .contact-container {
+    display: flex;
+    padding: 50px 200px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding-right: 50px;
+  }
+  
+  .contact-details {
+    flex: 1;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #139139;
+    color: #fff;
+    padding: 35px 20px;
+  }
+  
+  .footer-content{
+    height: 30px;
+  }
+
+  .social-icons{
+    float: right;
+  }
+
+  .social-icons a {
+    color: white;
+    font-size: 30px;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 15px;
+  }
+
+  
+
+  .fa-facebook {
+    background: #139139;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #139139;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #139139;
+    color: white;
+  }
